@@ -19,17 +19,15 @@ function openApp(url) {
 
 const rngText = document.getElementById("rng-text");
 const greetings = [
-  "Hello!",
-  "v7 is here!",
-  "Freedom",
+  "Stavfreesite",
+  "Games",
+  "Free browsing",
   "The Best Proxy",
-  "Welcome to the best proxy",
+  "洋洋秘密室",
   "Welcome",
   "こんにちは",
-  "こんにちは",
-  "こんにちは",
-  "Lunaar",
-  "uhh",
+  "Made byLunaar",
+  
 ];
 function getRandomGreeting() {
   const randomIndex = Math.floor(Math.random() * greetings.length);
